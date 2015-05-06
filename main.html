@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>main page</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-static-top navbar-mystyle no-margin">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="main.html"><img src="static/small.png"></img></a>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="input-group input-group-sm">
+          <input type="text" class="form-control"
+          placeholder="궁금한 친구나 장소를 검색해 보세요.">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </form>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">User</a></li>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">친구찾기</a></li>
+        <li><a href="#"><img src="static/sm1.png"></a></li>
+        <li><a href="#"><img src="static/sm2.png"></a></li>
+        <li><a href="#"><img src="static/sm3.png"></a></li>
+        <li><a href="#"><img src="static/sm4.png"></a></li>
+        <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+          aria-expanded="false"><img src="static/sm5.png"></a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">그룹 만들기</a></li>
+          <li><a href="#">내 그룹</a></li>
+          <li class="divider"></li>
+          <li><a href="#">페이지 만들기</a></li>
+          <li class="divider"></li>
+          <li><a href="#">광고 만들기</a></li>
+          <li><a href="#">Facebook에서 광고하기</a></li>
+          <li class="divider"></li>
+          <li><a href="#">활동 로그</a></li>
+          <li><a href="#">뉴스피드 기본 설정</a></li>
+          <li><a href="#">설정</a></li>
+          <li><a href="#">로그아웃</a></li>
+          <li class="divider"></li>
+          <li><a href="#">고객 센터</a></li>
+          <li><a href="#">문제 신고</a></li>
+        </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron no-padding no-margin">
+  <div class="row" style="margin-top:15px;">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-2" id="leftCol">
+      <ul class="nav nav-stacked">
+        <li>
+        <div class="row" id="profile">
+          <div class="col-md-1"></div>
+          <div class="col-md-2">
+            <a href="#"><img src="static/mypic.png"></a>
+          </div>
+          <div class="col-md-5">
+            &nbsp;<a href="#"><b>Username</b></a>
+            &nbsp;<a href="#">프로필 편집</a>
+          </div>
+        </div>
+        </li>
+        <li><a href="#"><img src="static/newsfeed.png" href="#">&nbsp;<b>뉴스피드</b></a></li>
+        <li><a href="#"><img src="static/message.png">메세지</a></li>
+        <li><a href="#"><img src="static/event.png">&nbsp;이벤트</a></li>
+        <li><a href="#"><img src="static/friends.png">&nbsp;친구 찾기</a></li>
+        <hr>
+        <li><a href="#"><img src="">친구</a></li>
+        <li><a href="#"><img src="">앱</a></li>
+        <li><a href="#"><img src="">관심사</a></li>
+        <li><a href="#"><img src="">그룹</a></li>
+        <li><a href="#"><img src="">페이지</a></li>
+        <li><a href="#"><img src="">이벤트</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4" id="mainCol">
+      <div id="row">
+        <div class="input-group" style="height:auto;">
+          <textarea class="form-control custom-control" rows="3"
+            style="resize:none; width:484px;"></textarea>
+          <button class="btn btn-sm btn-primary">게시</button>
+        </div>
+      </div>
+      <div class="row">
+        <ul class="nav nav-stacked">
+          <li><a href="">content1</a></li>
+          <li><a href="">content2</a></li>
+          <li><a href="">content3</a></li>
+          <li><a href="">content4</a></li>
+          <li><a href="">content5</a></li>
+          <li><a href="">content6</a></li>
+          <li><a href="">content7</a></li>
+          <li><a href="">content8</a></li>
+          <li><a href="">content9</a></li>
+          <li><a href="">content10</a></li>
+          <li><a href="">content11</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-2" id="rightCol">
+      <ul class="nav nav-stacked" id="sidebar">
+        <li><a href="#sec1">UserInfo</a></li>
+        <li><a href="#sec2">뉴스피드</a></li>
+        <li><a href="#sec3">메세지</a></li>
+        <li><a href="#sec4">이벤트</a></li>
+        <li><a href="#sec5">친구찾기</a></li>
+      </ul>
+    </div>
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-2" id="messageCol">
+      <p>message Column</p>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

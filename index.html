@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>intro page</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-mystyle navbar-static-top no-margin" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="static/logo.png"></img></a>
+    </div>
+
+    <form class="navbar-form navbar-right">
+      <div class="form-group">
+        <label for="inputEmail">이메일 또는 휴대폰</label><br>
+        <input type="email" id="inputEmail"><br>
+        <input type="checkbox" id="keeplogin">&nbsp;
+        <span>로그인 상태 유지</span>
+      </div>&nbsp;&nbsp;
+      <div class="form-group">
+        <label for="inputPasswd">비밀번호</label><br>
+        <input type="password" id="inputPasswd"><br>
+        <a href="#">로그인 정보를 잊으셨나요?</a>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-xs btn-primary">로그인</button>
+      </div>
+    </form>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-5">
+      <p style="color:#15385F;">
+      <b>Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를 나눠보세요.</b></p>
+      <img src="static/img2.png"></img>
+    </div>
+    <div class="col-md-1">
+      <span class="padding"></span>
+    </div>
+    <div class="col-md-5">
+      <span style="font-size:40px">가입하기</span><br>
+      <span style="font-size:20px">항상 지금처럼 무료로 즐기실 수 있습니다.</span><br><br>
+    <form>
+      <div class="form-inline input-group-lg">
+        <input class="form-control" type="text" id="firstname" placeholder="성(姓)">&nbsp;
+          <input class="form-control" type="text" id="lastname" placeholder="이름(성은 제외)">
+        </div>
+        <div><p></div>
+        <div class="form-group input-group-lg">
+          <input class="form-control" type="email" id="enrollEmail" placeholder="이메일 또는 휴대폰 번호">
+        </div>
+        <div class="form-group input-group-lg">
+          <input class="form-control" type="email" id="againEmail" placeholder="이메일 또는 휴대폰 번호 재입력">
+        </div>
+        <div class="form-group input-group-lg">
+          <input class="form-control" type="password" id="enrollpasswd" placeholder="새 비밀번호">
+        </div>
+        <h4>생일</h4>
+        <div class="form-group">
+          <select aria-label="연도" name="birth_year" id="year" title="연도">
+            <option value="0" selected="1">연도</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+          </select>
+          <select aria-label="월" name="birth_month" id="month" title="월">
+            <option value="0" selected="1">월</option>
+            <option value="1">1월</option>
+            <option value="2">2월</option>
+            <option value="3">3월</option>
+            <option value="4">4월</option>
+            <option value="5">5월</option>
+            <option value="6">6월</option>
+            <option value="7">7월</option>
+            <option value="8">8월</option>
+            <option value="9">9월</option>
+            <option value="10">10월</option>
+            <option value="11">11월</option>
+            <option value="12">12월</option>
+          </select>
+          <select aria-label="일" name="birth_day" id="day" title="일">
+            <option value="0" selected="1">일</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <a href="#" style="font-size:11px">&nbsp;왜 생년월일을 입력해야 하나요?</a><br>
+        </div>
+        <div class="form-group">
+          <span>
+            <input type="radio" name="sex" value="1" id="lady">
+            <label for="lady">여성</label>
+          </span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>
+            <input type="radio" name="sex" value="2" id="man">
+            <label for="man">남성</label>
+          </span>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-8">
+              <p style="color:gray; font-size:11px">
+              가입하기 버튼을 클릭하면
+              <a href="#">약관</a>
+              에 동의하며
+              <a href="#">쿠키사용</a>
+              을 포함한
+              <a href="#">데이터 정책</a>
+              을 읽고 이해하신 것으로 간주됩니다.<br><br>
+            </div>
+            <div class="col-md-2">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <button type="submit" class="btn btn-success btn-block"><b>가입하기</b></button>
+            </div>
+            <div class="col-md-5">
+            </div>
+          </div>
+        </form>
+      </div>
+      <hr class="myhr">
+      <p style="color:gray; font-size:15px"><b>유명인, 밴드, 비즈니스를 위한
+        <a href="#">페이지 만들기</a></b></p>
+      </p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>facebook © 2015</p>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
