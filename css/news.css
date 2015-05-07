@@ -1,16 +1,41 @@
 body {
+  font-family: helvetica, arial, 'lucida grande', sans-serif;
   background-color: #E9EAED;
   margin: 0px; }
 
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 42px;
   background-color: #47639E;
-  box-shadow: 0px 1px 2px #1C326C; }
-  header .logo {
+  box-shadow: 0px 2px 1px #1C326C;
+  /* for minor version browser */
+  background-color: #3B5998;
+  /* Mozilla Firefox */
+  background-image: -moz-linear-gradient(#4E69A2, #3B5998);
+  /* Opera */
+  background-image: -o-linear-gradient(#4E69A2, #3B5998);
+  /* Webkit (Safari 4+, Chrome 1+) */
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4E69A2), color-stop(1, #3B5998));
+  /* Webkit Chrome 11+ */
+  background-image: -webkit-linear-gradient(#4E69A2, #3B5998);
+  /* IE10 */
+  background-image: -ms-linear-gradient(#4E69A2, #3B5998);
+  /* W3C */
+  background-image: linear-gradient(#4E69A2, #3B5998); }
+  header .herder_content {
+    margin-top: 2px;
     margin-left: 12%;
     margin-right: 12%; }
+    header .herder_content ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      header .herder_content ul li {
+        display: inline-block;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        border: 0; }
 
 .main {
   position: relative;
@@ -24,39 +49,65 @@ header {
       .main .container ul li a {
         text-decoration: none; }
   .main section {
-    margin-left: 164px; }
+    margin-bottom: 12px;
+    background-color: #FFFFFF;
+    border-top: 1px #E1E2E3;
+    border-left: 1px #E1E2E3;
+    border-right: 1px #E1E2E3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0, 1px, 2px, #D0D1D5;
+    -moz-box-shadow: 0, 1px, 2px, #D0D1D5;
+    box-shadow: 0, 1px, 2px, #D0D1D5; }
+  .main .rightCol {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 55px;
+    right: 390px;
+    width: 18%;
+    border-top: 1px #E1E2E3;
+    border-left: 1px #E1E2E3;
+    border-right: 1px #E1E2E3;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0, 1px, 2px, #D0D1D5;
+    -moz-box-shadow: 0, 1px, 2px, #D0D1D5;
+    box-shadow: 0, 1px, 2px, #D0D1D5; }
 
 nav {
-  position: absolute;
-  width: 172px;
+  vertical-align: top;
+  display: inline-block;
+  width: 162px;
   height: auto;
   margin-top: 12px;
-  padding-left: 8px;
-  padding-top: 13px;
   background-color: yellow;
   box-sizing: border-box; }
 
 .column {
-  position: absolute;
+  vertical-align: top;
+  display: inline-block;
   margin-top: 12px;
-  margin-left: 20px;
-  width: 65%; }
+  margin-left: 10px;
+  width: 42.3%;
+  box-sizing: border-box; }
 
 #facebook-icon {
-  background: white;
+  background: #FFFFFF;
   text-indent: -999em;
   width: 18px;
   height: 21px;
   border-radius: 3px;
   position: relative;
   overflow: hidden;
-  border: 3px solid white;
+  border: 3px solid #FFFFFF;
   border-bottom: 0; }
 
 #facebook-icon::before {
   content: "/20";
   position: absolute;
-  background: white;
+  background: #FFFFFF;
   width: 8px;
   height: 18px;
   bottom: -6px;
@@ -72,5 +123,13 @@ nav {
   height: 4px;
   background: #47639E;
   right: 1px; }
+
+#topbar_shape {
+  font-size: 14px;
+  height: 20px;
+  border-radius: 4px;
+  border-color: #141823;
+  border: 1px;
+  padding: 2px 0px 2px 8px; }
 
 /*# sourceMappingURL=news.css.map */
